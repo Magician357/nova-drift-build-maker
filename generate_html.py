@@ -7,7 +7,20 @@ def generate_button(name,link,number):
 
 # Gear
 bodies={
-    "Architect":"https://static.wikia.nocookie.net/nova-drift/images/f/fb/Architect.png/revision/latest/scale-to-width-down/100?cb=20191011010925"
+    "Architect":"https://static.wikia.nocookie.net/nova-drift/images/f/fb/Architect.png/revision/latest/scale-to-width-down/100?cb=20191011010925",
+    "Assault":"https://static.wikia.nocookie.net/nova-drift/images/e/e0/Assault.png/revision/latest/scale-to-width-down/100?cb=20191011010930",
+    "Battery":"https://static.wikia.nocookie.net/nova-drift/images/6/6d/Battery.png/revision/latest/scale-to-width-down/100?cb=20191011010935",
+    "Carrier":"https://static.wikia.nocookie.net/nova-drift/images/b/b7/Carrier.png/revision/latest/scale-to-width-down/100?cb=20191226091451",
+    "Courser":"https://static.wikia.nocookie.net/nova-drift/images/9/9b/Courser.png/revision/latest/scale-to-width-down/100?cb=20191011010946",
+    "Engineer":"https://static.wikia.nocookie.net/nova-drift/images/d/d8/Engineer.png/revision/latest/scale-to-width-down/100?cb=20191011010952",
+    "Firefly":"https://static.wikia.nocookie.net/nova-drift/images/d/d7/Firefly.png/revision/latest/scale-to-width-down/100?cb=20191115103311",
+    "Hullbreaker":"https://static.wikia.nocookie.net/nova-drift/images/1/17/Hullbreaker.png/revision/latest/scale-to-width-down/100?cb=20191011010957",
+    "Research":"https://static.wikia.nocookie.net/nova-drift/images/2/20/Research.png/revision/latest/scale-to-width-down/100?cb=20191011011002",
+    "Sentinel":"https://static.wikia.nocookie.net/nova-drift/images/9/91/Sentinel.png/revision/latest/scale-to-width-down/100?cb=20191011011007",
+    "Leviathan":"https://static.wikia.nocookie.net/nova-drift/images/0/0a/Leviathan.png/revision/latest/scale-to-width-down/100?cb=20200921205007",
+    "Spectre":"https://static.wikia.nocookie.net/nova-drift/images/9/90/Spectre.png/revision/latest/scale-to-width-down/100?cb=20191115103317",
+    "Standard Body":"https://static.wikia.nocookie.net/nova-drift/images/4/45/Standard_Body.png/revision/latest/scale-to-width-down/100?cb=20191011011011",
+    "Viper":"https://static.wikia.nocookie.net/nova-drift/images/9/99/Viper.png/revision/latest/scale-to-width-down/100?cb=20191011011020",
 }
 weapons={}
 shields={}
