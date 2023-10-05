@@ -28,4 +28,9 @@
 <div class="side"><button id="nmod_58" onclick="toggle_button(58)"><img alt="Guidance" src="https://static.wikia.nocookie.net/nova-drift/images/6/69/Guidance.png/revision/latest/scale-to-width-down/100?cb=20191011022802"><p class="label">Guidance</p></button>
 <button id="nmod_59" onclick="toggle_button(59)"><img alt="Homing Strike" src="https://static.wikia.nocookie.net/nova-drift/images/f/f9/Homing_Strike.png/revision/latest/scale-to-width-down/100?cb=20191011022811"><p class="label">Homing Strike</p></button></div>
 <button id="nmod_60" onclick="toggle_button(60)"><img alt="Convergence" src="https://static.wikia.nocookie.net/nova-drift/images/d/d0/Convergence.png/revision/latest/scale-to-width-down/100?cb=20191011022035"><p class="label">Convergence</p></button>
+</div><div id="hull" class="tree">
+<button id="nmod_61" onclick="toggle_button(61)"><img alt="Hull Strength" src="https://static.wikia.nocookie.net/nova-drift/images/4/40/Hull_Strength.png/revision/latest/scale-to-width-down/100?cb=20191011022815"><p class="label">Hull Strength</p></button>
+<div class="side"><button id="nmod_62" onclick="toggle_button(62)"><img alt="Absorption" src="https://static.wikia.nocookie.net/nova-drift/images/d/db/Absorption.png/revision/latest/scale-to-width-down/100?cb=20191011021253"><p class="label">Absorption</p></button>
+<button id="nmod_63" onclick="toggle_button(63)"><img alt="Juggernaut" src="https://static.wikia.nocookie.net/nova-drift/images/0/07/Juggernaut.png/revision/latest/scale-to-width-down/100?cb=20191011023057"><p class="label">Juggernaut</p></button></div>
+<button id="nmod_64" onclick="toggle_button(64)"><img alt="Force Armor" src="https://static.wikia.nocookie.net/nova-drift/images/d/de/Force_Armor.png/revision/latest/scale-to-width-down/100?cb=20191011022520"><p class="label">Force Armor</p></button>
 </div></div>

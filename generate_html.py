@@ -89,8 +89,19 @@ mods={
         "Guidance":"https://static.wikia.nocookie.net/nova-drift/images/6/69/Guidance.png/revision/latest/scale-to-width-down/100?cb=20191011022802",
         "Homing Strike":"https://static.wikia.nocookie.net/nova-drift/images/f/f9/Homing_Strike.png/revision/latest/scale-to-width-down/100?cb=20191011022811",
         "Convergence":"https://static.wikia.nocookie.net/nova-drift/images/d/d0/Convergence.png/revision/latest/scale-to-width-down/100?cb=20191011022035"
+    },
+    "hull":{
+        "Hull Strength":"https://static.wikia.nocookie.net/nova-drift/images/4/40/Hull_Strength.png/revision/latest/scale-to-width-down/100?cb=20191011022815",
+        "Absorption":"https://static.wikia.nocookie.net/nova-drift/images/d/db/Absorption.png/revision/latest/scale-to-width-down/100?cb=20191011021253",
+        "Juggernaut":"https://static.wikia.nocookie.net/nova-drift/images/0/07/Juggernaut.png/revision/latest/scale-to-width-down/100?cb=20191011023057",
+        "Force Armor":"https://static.wikia.nocookie.net/nova-drift/images/d/de/Force_Armor.png/revision/latest/scale-to-width-down/100?cb=20191011022520"
+    },
+    "regen":{
+        "Regeneration":"https://static.wikia.nocookie.net/nova-drift/images/5/53/Regeneration.png/revision/latest/scale-to-width-down/100?cb=20191011023426",
+        "Regenerative Shields":"https://static.wikia.nocookie.net/nova-drift/images/b/bd/Regenerative_Shields.png/revision/latest/scale-to-width-down/100?cb=20191011023431",
+        "Rapid Reconstruction":"https://static.wikia.nocookie.net/nova-drift/images/f/f9/Rapid_Reconstruction.png/revision/latest/scale-to-width-down/100?cb=20191011023410",
+        "Adrenal Module":""
     }
-    # Add all of the mods
 }
 
 wild_mods={}
