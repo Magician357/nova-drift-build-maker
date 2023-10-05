@@ -1,0 +1,80 @@
+<button type="button" onclick="hide_unloaded_buttons()" id="hideunload">Hide unloaded buttons</button>
+
+<script>
+    // 112 total normal mods
+
+    // 177 total mods
+    // 14 bodies
+    // 10 shields
+    // 13 weapons
+
+    // 214 buttons
+    var button_toggles=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+
+    function toggle_button(n){
+        console.log(n);
+        button_toggles[n]=1-button_toggles[n];
+        reload_toggled_buttons();
+    }
+
+    var curitem;
+    function reload_toggled_buttons(){
+        for (let n=0;n<214;n++){
+            document.getElementById("nmod_"+n).style.opacity=button_toggles[n]+0.25
+        }
+    }
+
+    function hide_unloaded_buttons(){
+        for (let n=0;n<214;n++){
+            document.getElementById("nmod_"+n).style.opacity=button_toggles[n]+0.1
+        }
+    }
+</script>
+
+<style>
+
+    button {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .side button {
+        display:inline;
+    }
+
+    .tree {
+        outline: 1px black solid;
+        display:inline-block;
+        text-align: center;
+        height: 450px;
+    }
+
+    img {
+        width:50px;
+        height:auto;
+    }
+    
+    button:not(#hideunload) {
+        width:100px;
+        height:150px;
+    }
+
+    .gear {
+        display:inline;
+    }
+
+    .gear button {
+        display:inline;
+    }
+
+    hr {
+        border: none;
+        border-top: 1px dotted #f00;
+        color: #fff;
+        background-color: #fff;
+        height: 1px;
+        width: 50%;
+    }
+    
+</style>
