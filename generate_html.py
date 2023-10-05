@@ -39,7 +39,18 @@ weapons={
     "Vortex":"https://static.wikia.nocookie.net/nova-drift/images/5/52/Vortex.png/revision/latest/scale-to-width-down/100?cb=20191011013458"
 }
 
-shields={}
+shields={
+    "Amp":"https://static.wikia.nocookie.net/nova-drift/images/f/f8/Amp.png/revision/latest/scale-to-width-down/100?cb=20191011010450",
+    "Bastion":"https://static.wikia.nocookie.net/nova-drift/images/b/bf/Bastion.png/revision/latest/scale-to-width-down/100?cb=20191011010456",
+    "Halo":"https://static.wikia.nocookie.net/nova-drift/images/f/f3/Halo.png/revision/latest/scale-to-width-down/100?cb=20191011010501",
+    "Orbital":"https://static.wikia.nocookie.net/nova-drift/images/9/98/Orbital.png/revision/latest/scale-to-width-down/100?cb=20200921205040",
+    "Reflect":"https://static.wikia.nocookie.net/nova-drift/images/d/d0/Reflect.png/revision/latest/scale-to-width-down/100?cb=20191011010511",
+    "Shockwave":"https://static.wikia.nocookie.net/nova-drift/images/6/65/Shockwave.png/revision/latest/scale-to-width-down/100?cb=20200225113717",
+    "Siphon":"https://static.wikia.nocookie.net/nova-drift/images/3/3a/Siphon.png/revision/latest/scale-to-width-down/100?cb=20191011010515",
+    "Standard Shield":"https://static.wikia.nocookie.net/nova-drift/images/6/6b/Standard_Shield.png/revision/latest/scale-to-width-down/100?cb=20191011010521",
+    "Temporal":"https://static.wikia.nocookie.net/nova-drift/images/a/a4/Temporal.png/revision/latest/scale-to-width-down/100?cb=20191011010525",
+    "Warp":"https://static.wikia.nocookie.net/nova-drift/images/a/a6/Warp.png/revision/latest/scale-to-width-down/100?cb=20191011010529"
+}
 
 # Mods
 mods={
@@ -119,6 +130,14 @@ with open("C:\\Users\\zacha\\OneDrive\\Documents\\programms\\nova drift webite\\
     f.write(current)
 
 # Generate shield
+current="<div id=\"shield\" class=\"gear\">"
+for shield in shields:
+    link=shields[shield]
+    result, number=generate_button(shield,link,number)
+    current+=result
+current+="</div>"
+final.append(current)
+final.append("<hr>")
 
 # Generate mod
 
